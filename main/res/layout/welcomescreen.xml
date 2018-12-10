@@ -7,10 +7,10 @@
     tools:context="com.example.andreaamador.mp6.WelcomeScreen">
 
     <ImageView
+        android:id="@+id/appIcon"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_centerInParent="true"
-        android:id="@+id/appIcon"
-        android:src="@drawable/appicon"/>
+        android:src="@drawable/appicon" />
 
 </RelativeLayout>

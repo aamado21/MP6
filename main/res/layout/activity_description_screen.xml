@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="431dp"
+        android:layout_alignTop="@+id/bodyText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="39dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ListOne"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="91dp"
+                android:autoLink="all"
+                android:text="Activities and Recreation Center \n www.campusrec.illinois.edu/facilities/activities-and-recreation-center-arc/ \n \n Asian American Studies \n www.asianam.illinois.edu \n \n Bevier Hall \n www.fshn.illinois.edu\n \n La Casa Cultural Latina \n www.oiir.illinois.edu/la-casa-cultural-latina \n \n Chemical and Life Sciences Laboratory \n www.chemistry.illinois.edu/about/research-facilities \n \n English Building \n english.illinois.edu \n \n Freer Hall \n ahs.illinois.edu \n \n Krannert Art Museum \n www.kam.illinois.edu/krannert-art-museum \n \n Krannert Center \n www.krannertcenter.com \n \n Loomis Laboratory \n www.physics.illinois.edu/research/facilities \n \n Main Library \n library.illinois.edu \n \n McKinley Health Center \n www.mckinley.illinois.edu \n \n Mechanical Engineering Building \n www.mechanical.illinois.edu \n \n Newmark Civil Engineering \n www.cee.illinois.edu\n \n Veterinary Teaching Hospital \n www.vetmed.illinois.edu/animal-care/vth/ \n"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="0dp"
+        android:text="More Information"
+        android:textColor="@color/colorAccent"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/backToMap"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="Return to Map"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/bodyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:maxLines="25"
+        android:text="Below you can find links to the building or department websites for more information."
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+
+</RelativeLayout>
